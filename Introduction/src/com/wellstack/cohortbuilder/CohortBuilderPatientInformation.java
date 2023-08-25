@@ -118,8 +118,8 @@ public class CohortBuilderPatientInformation {
 		js3.executeScript("window.scrollBy(0,350)","");
 		driver.findElement(By.xpath("(//span[@class='ui-button-text ui-clickable'][normalize-space()='Save As Draft & Next'])[2]")).click();
 		//Execute
-//		driver.findElement(By.xpath("//span[contains(text(),'Execute')]")).click();
-//		driver.findElement(By.xpath("//span[normalize-space()='Yes']")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'Execute')]")).click();
+		driver.findElement(By.xpath("//span[normalize-space()='Yes']")).click();
 
 	
 		
