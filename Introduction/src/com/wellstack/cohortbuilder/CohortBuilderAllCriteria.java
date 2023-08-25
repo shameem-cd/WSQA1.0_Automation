@@ -484,7 +484,7 @@ public class CohortBuilderAllCriteria {
 		JavascriptExecutor js3 = (JavascriptExecutor)driver;   
 		js3.executeScript("window.scrollBy(0,350)","");
 		driver.findElement(By.xpath("(//span[@class='ui-button-text ui-clickable'][normalize-space()='Save As Draft & Next'])[2]")).click();
-//		Execute Cohort Builder 
+//		Execute CohortBuilder 
 		JavascriptExecutor js14 = (JavascriptExecutor)driver;   
 		js14.executeScript("window.scrollBy(0,350)","");
 		driver.findElement(By.xpath("//span[contains(text(),'Execute')]")).click();
